@@ -5,42 +5,7 @@ a{text-decoration:none}
 body {
     background: #f2f2f5;
 }
-/*  iscroll  */
-.wrapper {
-    position: relative;
-    height: 4.5rem;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 1rem;
-    background: #fff;
-    padding-left: 2rem;
-}
 
-.wrapper .scroller {
-    position: absolute
-}
-
-.wrapper .scroller li {
-    height: 3rem;
-    color: #333;
-    float: left;
-    line-height: 3rem;
-    font-size: 1.5rem;
-    text-align: center
-}
-
-.wrapper .scroller li a {
-    color: #333;
-    display: block;
-    margin: 0 2rem;
-    padding: 0 .1rem
-}
-
-.wrapper .scroller li.cur a {
-    color: #0892fa;
-    height: 2.5rem;
-    border-bottom: .1rem solid #0892fa
-}
 
 /*  swiper  */
 .swiper-container {
@@ -355,44 +320,6 @@ body {
 .merchant-list li img {
     width: 100%;
     height: auto;
-}
-.footer {
-    background-color: #383838;
-    margin-top: 3vh;
-}
-.footer-logo {
-    display: block;
-    margin: 0 auto;
-    width: 150px;
-    height:auto;
-    padding: 5vh 0;
-}
-.footer-tel {
-    display: inline-block;
-    color: #fff;
-    background: #0892fa;
-    padding: 5px 20px;
-    font-size: 18px;
-}
-.tel-box {
-    text-align: center;
-    padding-bottom: 5vh;
-}
-.footer-tel a {
-    color: #fff;
-}
-.footer-detail {
-    display: flex;
-    align-items: center;
-    padding: 0 5vw;
-}
-.erweima {
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
-}
-.company-detail {
-    color: #d9d9d9;
 }
 
 

@@ -1,0 +1,35 @@
+.wrapper {
+    position: relative;
+    height: 4.5rem;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 1rem;
+    background: #fff;
+    padding-left: 2rem;
+}
+
+.wrapper .scroller {
+    position: absolute
+}
+
+.wrapper .scroller li {
+    height: 3rem;
+    color: #333;
+    float: left;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    text-align: center
+}
+
+.wrapper .scroller li a {
+    color: #333;
+    display: block;
+    margin: 0 2rem;
+    padding: 0 .1rem
+}
+
+.wrapper .scroller li.cur a {
+    color: #0892fa;
+    height: 2.5rem;
+    border-bottom: .1rem solid #0892fa
+}

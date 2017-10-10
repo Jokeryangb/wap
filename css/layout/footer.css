@@ -1,0 +1,39 @@
+
+.footer {
+    background-color: #383838;
+    margin-top: 3vh;
+}
+.footer-logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height:auto;
+    padding: 5vh 0;
+}
+.footer-tel {
+    display: inline-block;
+    color: #fff;
+    background: #0892fa;
+    padding: 5px 20px;
+    font-size: 18px;
+}
+.tel-box {
+    text-align: center;
+    padding-bottom: 5vh;
+}
+.footer-tel a {
+    color: #fff;
+}
+.footer-detail {
+    display: flex;
+    align-items: center;
+    padding: 0 5vw;
+}
+.erweima {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.company-detail {
+    color: #d9d9d9;
+}
