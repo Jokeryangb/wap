@@ -1,3 +1,11 @@
+body,ul,ol,li{margin:0;padding:0}
+ol,ul{list-style:none}
+a:hover{text-decoration:none}
+a{text-decoration:none}
+body {
+    background: #f2f2f5;
+}
+
 .wrapper {
     position: relative;
     height: 4.5rem;
