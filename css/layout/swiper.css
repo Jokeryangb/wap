@@ -1,0 +1,27 @@
+
+/*  swiper  */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    background: #fff;
+    height: 41vh;
+}
+.swiper-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 50px;
+}
+.swiper-pagination-bullet {
+    background: #fff;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    width: 30px;
+    border-radius: 0;
+    height: 5px;
+}

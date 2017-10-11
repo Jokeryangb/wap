@@ -1,0 +1,21 @@
+body {
+    background: #fff;
+}
+/*  banner  */
+.banner-1 {
+    background: url("../images/index/banner-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-1-font {
+    width: 60vw;
+    margin-top: 7vh;
+    margin-left: 7vw;
+    display: block;
+}
+.qq {
+    width: 22vw;
+    margin-top: 5vh;
+    margin-left: 7vw;
+}

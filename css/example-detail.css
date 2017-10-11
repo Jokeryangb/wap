@@ -1,0 +1,29 @@
+body {
+    background: #fff;
+}
+.back {
+    width: 100%;
+    height: 5vh;
+    line-height: 5vh;
+    background: #333333;
+}
+.back a {
+    color: #fff;
+    padding-left: 5vw;
+}
+.detail {
+    padding: 3vh 5vw;
+}
+.content {
+    line-height: 1.5;
+}
+.title {
+    font-size: 2rem;
+    margin-bottom: 3vh;
+}
+.time {
+    color: #666666;
+    margin-bottom: 3vh;
+}
+
+
