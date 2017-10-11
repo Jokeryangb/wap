@@ -1,0 +1,65 @@
+.banner {
+    background: url("../images/business/banner.png") no-repeat;
+    background-size: cover;
+    padding-top: 77%;
+}
+.bus-list {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 2vh;
+
+}
+.bus-list li {
+    width: 40vw;
+    margin-bottom: 2vh;
+}
+.bus-list li img {
+    width: 100%;
+}
+.cooperate {
+    width: 90vw;
+    margin: 0 auto;
+    border-top: 5px solid #0892fa;
+    background: #fff;
+}
+.cooperate-header {
+    font-size: 1.8rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+.cooperate-header p{
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 1rem;
+}
+.cooperate-header p small {
+    color: #a9a9a9;
+}
+.coo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 4vw;
+}
+.coo-list li {
+    margin: 2vh 0;
+    width: 100%;
+    font-size: 16px;
+    color: #666666;
+}
+.coo-list li img {
+    width: 45px;
+    margin-right: 10px;
+}
+.num {
+    margin-right: 10px;
+}
+
+
+
+

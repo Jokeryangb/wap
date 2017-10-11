@@ -69,3 +69,43 @@ p {
     color: #fd8112;
     line-height: 20px;
 }
+.modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.copy {
+    border: none;
+    background: #fd8112;
+    padding: 5px 15px;
+    color: #fff;
+    width: 130px;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 5vh;
+}
+.email {
+    width: 100%;
+    text-align: center;
+    margin: 5vh 0;
+    font-size: 18px;
+}
+.toast {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    z-index: 9999;
+    display: none;
+}
+
+
+
+
+
