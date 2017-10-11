@@ -1,0 +1,64 @@
+.banner {
+    width: 100%;
+    background: url("../images/join/banner.png") no-repeat;
+    background-size: cover;
+
+}
+.banner img {
+    width: 100%;
+}
+/*  job  */
+.job {
+    width: 90vw;
+    margin: 0 auto;
+    border-top: 5px solid #0892fa;
+    background: #fff;
+    margin-top: -3vh;
+}
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0 0 0;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+.job-header p:first-child {
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+.job-header p:last-child {
+    margin-right: 1rem;
+}
+.headlines {
+    display: inline-block;
+    transform:skew(-10deg);
+    background:#ff0000;
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 0 5px;
+    margin-left: 5px;
+}
+.job-list {
+    padding-bottom: 2rem;
+}
+.job-list li{
+    padding: 1rem 0 0 2rem;
+    display: flex;
+}
+.title {
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+}
+.time {
+    color: #999999;
+}
+
+
+
+
+
+

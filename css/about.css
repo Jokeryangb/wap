@@ -19,3 +19,24 @@ body {
     margin-top: 5vh;
     margin-left: 7vw;
 }
+.about {
+    margin: 4vh 3vw;
+}
+.logo {
+    width: 150px;
+    margin-bottom: 5vh;
+}
+.name {
+    font-size: 2rem;
+    padding-left: 2vw;
+    margin: 0;
+    border-left: 5px solid #0892fa;
+    margin-bottom: 5vh;
+}
+.detail {
+    color: #666666;
+}
+
+
+
+
