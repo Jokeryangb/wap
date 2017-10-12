@@ -104,7 +104,13 @@ body {
     z-index: 9999;
     display: none;
 }
-
+.toast p {
+    margin: 0;
+}
+#copy {
+    position: absolute;
+    top: -1000px;
+}
 
 
 

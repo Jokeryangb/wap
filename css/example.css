@@ -58,12 +58,15 @@
 .example-detail-list {
     margin: 0 auto;
     width: 90vw;
-    margin-top: 5vh;
+    margin-top: 2vh;
+}
+.example-detail-list a{
+    color: #000;
 }
 .example-detail-list ul li {
     display: flex;
     flex: 4;
-    padding-bottom: 3vh;
+    padding: 3vh 0;
     border-bottom: 1px solid #e5e5e5;
 }
 .detail-img {
@@ -89,6 +92,7 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     line-height: 2;
+    color: #666666;
 }
 
 

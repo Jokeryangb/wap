@@ -86,9 +86,10 @@
                 <h4 class="modal-title" id="myModalLabel">开启合作共赢</h4>
             </div>
             <div class="modal-body">
-                <p class="email">联系电话：13428890908</p>
-                <button class="copy btn" data-clipboard-text="13428890908">复制电话号码</button>
+                <p class="tel">联系电话：13428890908</p>
+                <p><button class="copy btn" onClick="copyEmail()">复制电话号码</button></p>
                 <a href="tel:13428890908" class="copy btn">直接拨号</a>
+                <textarea  id="copy" >13428890908</textarea>
             </div>
         </div>
     </div>
@@ -118,22 +119,13 @@
 <script type="text/javascript" src="dist/iscroll/navbarscroll.js"></script>
 <script type="text/javascript" src="dist/swiper/swiper-3.4.2.min.js"></script>
 <script type="text/javascript" src="dist/swiper/swiper.animate1.0.2.min.js"></script>
-<script type="text/javascript" src="js/clipboard.min.js"></script>
 <script type="text/javascript" src="js/layout.js"></script>
+<script type="text/javascript" src="js/copy.js"></script>
+
 <script type="text/javascript" charset="utf-8">
     // iscrool
     $('.wrapper').navbarscroll({
         defaultSelect : 3
-    });
-    var timer;
-    var clipboard = new Clipboard('.btn');
-    clipboard.on('success', function(e) {
-        console.log(e);
-        clearTimeout(timer)
-        $('.toast').fadeIn(500);
-        timer = setTimeout(function () {
-            $('.toast').fadeOut(500);
-        },2000)
     });
 </script>
 </body>

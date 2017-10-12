@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/layout/header.css">
     <link rel="stylesheet" href="css/layout/footer.css">
     <link rel="stylesheet" href="css/layout/swiper.css">
+    <link rel="stylesheet" href="css/slideStyle.css">
     <link rel="stylesheet" href="css/index.css">
 
 </head>
@@ -244,6 +245,33 @@
             <small>Successful Examples Of Cooperatio</small>
         </p>
     </div>
+    <div id="example-box"></div>  <!-- 盒子-->
+    <ul class="example-list">
+        <li>
+            <h5>【企业名称0】甘肃某大型电玩城</h5>
+            <p>电玩城所处城市为3级地址，面积1700平方，辐射周边人口20万人</p>
+            <h5>【主要问题】新开业，希望快速发展用户</h5>
+            <p>客户对接好酷酷宝系统后，首先发挥酷酷宝的自动营销功能，币和三级分销的功能，发动员工和玩家进行传播，开业短短半个月就有2万粉丝沉淀，门店没有做任何宣传广告，只是用微信分享传播，保证了开业期间都是爆满的。总结：酷酷宝的自动营销功能，非常适合电玩行业，需要运营者善加利用。</p>
+        </li>
+        <li>
+            <h5>【企业名称1】甘肃某大型电玩城</h5>
+            <p>电玩城所处城市为3级地址，面积1700平方，辐射周边人口20万人</p>
+            <h5>【主要问题】新开业，希望快速发展用户</h5>
+            <p>客户对接好酷酷宝系统后，首先发挥酷酷宝的自动营销功能，币和三级分销的功能，发动员工和玩家进行传播，开业短短半个月就有2万粉丝沉淀，门店没有做任何宣传广告，只是用微信分享传播，保证了开业期间都是爆满的。总结：酷酷宝的自动营销功能，非常适合电玩行业，需要运营者善加利用。</p>
+        </li>
+        <li>
+            <h5>【企业名称2】甘肃某大型电玩城</h5>
+            <p>电玩城所处城市为3级地址，面积1700平方，辐射周边人口20万人</p>
+            <h5>【主要问题】新开业，希望快速发展用户</h5>
+            <p>客户对接好酷酷宝系统后，首先发挥酷酷宝的自动营销功能，币和三级分销的功能，发动员工和玩家进行传播，开业短短半个月就有2万粉丝沉淀，门店没有做任何宣传广告，只是用微信分享传播，保证了开业期间都是爆满的。总结：酷酷宝的自动营销功能，非常适合电玩行业，需要运营者善加利用。</p>
+        </li>
+        <li>
+            <h5>【企业名称3】甘肃某大型电玩城</h5>
+            <p>电玩城所处城市为3级地址，面积1700平方，辐射周边人口20万人</p>
+            <h5>【主要问题】新开业，希望快速发展用户</h5>
+            <p>客户对接好酷酷宝系统后，首先发挥酷酷宝的自动营销功能，币和三级分销的功能，发动员工和玩家进行传播，开业短短半个月就有2万粉丝沉淀，门店没有做任何宣传广告，只是用微信分享传播，保证了开业期间都是爆满的。总结：酷酷宝的自动营销功能，非常适合电玩行业，需要运营者善加利用。</p>
+        </li>
+    </ul>
 </div>
 <div class="merchant">
     <div class="merchant-header">
@@ -290,18 +318,33 @@
     </div>
 </div>
 
-
 <script type="text/javascript" src="dist/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="dist/iscroll/iscroll.js"></script>
 <script type="text/javascript" src="dist/iscroll/navbarscroll.js"></script>
 <script type="text/javascript" src="dist/swiper/swiper-3.4.2.min.js"></script>
 <script type="text/javascript" src="dist/swiper/swiper.animate1.0.2.min.js"></script>
 <script type="text/javascript" src="js/layout.js"></script>
+<script type="text/javascript" src="dist/slide/jquery-slideShow.js"></script>
+
 <script type="text/javascript" charset="utf-8">
     // iscrool
     $('.wrapper').navbarscroll({
         defaultSelect : 0
     });
+
+    var image=["./images/index/e1.png","./images/index/e2.png","./images/index/e3.png","./images/index/e1.png"];
+    $("#example-box").slide({
+        images:image,//必选
+        hiddenBar:false,
+        interval:6000
+    });
+    function exampleListShow() {
+        var falg = $('#example-box ul li.oneImageBox').data('order');
+        console.log(falg);
+        $('.example-list li').hide();
+        $('.example-list li').eq(falg).show();
+    }
+    exampleListShow();
 </script>
 </body>
 </html>

@@ -11,7 +11,7 @@
 </head>
 <body>
 <div class="back">
-    <a href="">< 返回案例</a>
+    <a href="./join.html">< 返回加入我们</a>
 </div>
 <div class="content">
     <p class="title">Java高级开发工程师</p>
@@ -33,8 +33,7 @@
     </p>
 </div>
 
-<textarea cols="20" rows="10" id="email">hr@haoku.sina.com</textarea>
-<input type="button"  onClick="copyEmail()" value="点击复制代码" />
+
 
 <div class="footer">
     <img src="./images/index/footer-logo.png" class="footer-logo" alt="">
@@ -66,8 +65,8 @@
             </div>
             <div class="modal-body">
                 <p class="email">邮箱地址：hr@haoku.sina.com</p>
-                <button class="copy btn"  >复制邮箱地址</button>
-                <input type="button"  onClick="copyEmail()" value="点击复制代码" />
+                <button class="copy btn" onClick="copyEmail()"   >复制邮箱地址</button>
+                <textarea  id="copy" >hr@haoku.sina.com</textarea>
             </div>
         </div>
     </div>
@@ -78,16 +77,8 @@
 
 <script type="text/javascript" src="dist/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="dist/bootstrap/js/bootstrap.js"></script>
-<script>
-    function copyEmail()
-    {
-        var Url2=document.getElementById("email");
-        Url2.select();
-        document.execCommand("Copy");
-        alert("已复制好，可贴粘。");
-    }
+<script type="text/javascript" src="js/copy.js"></script>
 
-</script>
 
 </body>
 </html>

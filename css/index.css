@@ -243,6 +243,7 @@
     padding-left: 0;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 2vh;
     border-bottom: 1px solid #e5e5e5;
 }
 .example-header p{
@@ -251,6 +252,17 @@
 }
 .example-header p small {
     color: #a9a9a9;
+}
+.example-list {
+    margin: 3vh 3vw;
+    padding-bottom: 3vh;
+}
+.example-list li{
+    display: none;
+}
+.example-list h5{
+    font-weight: bold;
+    margin: 4vh 0;
 }
 .merchant {
     width: 90vw;

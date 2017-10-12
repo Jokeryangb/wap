@@ -101,6 +101,11 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.modal-body p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .copy {
     border: none;
     background: #fd8112;
@@ -110,10 +115,9 @@
     border-radius: 20px;
     font-size: 16px;
     outline: none;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
 }
-.email {
-    width: 100%;
+.tel {
     text-align: center;
     margin: 5vh 0;
     font-size: 18px;
@@ -133,7 +137,10 @@
 .toast p {
     margin: 0;
 }
-
+#copy {
+    position: absolute;
+    top: -1000px;
+}
 
 
 

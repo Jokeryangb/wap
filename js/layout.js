@@ -1,6 +1,4 @@
 $(function () {
-
-
     // swiper
     var flag = $('.swiper-container').length
     if (flag > 0) {
@@ -18,5 +16,6 @@ $(function () {
             }
         });
     }
-
 })
+
+
