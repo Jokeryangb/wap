@@ -1,9 +1,6 @@
 body {
     background: #fff;
 }
-p {
-    margin: 0;
-}
 .back {
     width: 100%;
     height: 5vh;
@@ -48,6 +45,9 @@ p {
     align-items: center;
     justify-content: space-around;
  }
+.join-hk p {
+    margin: 0;
+}
 .resume-delivery {
     border: none;
     background: #fd8112;
@@ -93,8 +93,8 @@ p {
     font-size: 18px;
 }
 .toast {
-    position: absolute;
-    top: 80%;
+    position: fixed;
+    bottom: 20%;
     left: 50%;
     transform: translate(-50%,-50%);
     background: rgba(0,0,0,0.6);

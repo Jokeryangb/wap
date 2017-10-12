@@ -1,6 +1,5 @@
 $(function () {
-    // iscrool
-    $('.wrapper').navbarscroll();
+
 
     // swiper
     var flag = $('.swiper-container').length

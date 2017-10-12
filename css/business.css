@@ -59,6 +59,80 @@
 .num {
     margin-right: 10px;
 }
+.join-hk {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    padding: 2vh 0;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+}
+.join-hk p {
+    margin: 0;
+    font-size: 16px;
+}
+.resume-delivery {
+    border: none;
+    background: #fd8112;
+    width: 150px;
+    border-radius: 20px;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    outline: none;
+}
+.my-badge {
+    display: inline-block;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fd8112;
+    line-height: 20px;
+}
+.modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.copy {
+    border: none;
+    background: #fd8112;
+    padding: 5px 15px;
+    color: #fff;
+    width: 130px;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 5vh;
+}
+.email {
+    width: 100%;
+    text-align: center;
+    margin: 5vh 0;
+    font-size: 18px;
+}
+.toast {
+    position: fixed;
+    bottom: 10%;
+    left: 43%;
+    transform: translate(-20%,-50%);
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    z-index: 9999;
+    display: none;
+}
+.toast p {
+    margin: 0;
+}
 
 
 

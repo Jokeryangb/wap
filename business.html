@@ -73,8 +73,29 @@
         </li>
     </ul>
 </div>
-
-
+<div class="join-hk">
+    <p>开启合作共赢模式</p>
+    <button class="resume-delivery" data-toggle="modal" data-target="#myModal">我也想合作<span class="my-badge">></span> </button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">开启合作共赢</h4>
+            </div>
+            <div class="modal-body">
+                <p class="email">联系电话：13428890908</p>
+                <button class="copy btn" data-clipboard-text="13428890908">复制电话号码</button>
+                <a href="tel:13428890908" class="copy btn">直接拨号</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="toast">
+    <p>复制成功！</p>
+</div>
 <div class="footer">
     <img src="./images/index/footer-logo.png" class="footer-logo" alt="">
     <div class="tel-box">
@@ -92,10 +113,28 @@
     </div>
 </div>
 <script type="text/javascript" src="dist/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="dist/bootstrap/js/bootstrap.js"></script>
 <script type="text/javascript" src="dist/iscroll/iscroll.js"></script>
 <script type="text/javascript" src="dist/iscroll/navbarscroll.js"></script>
 <script type="text/javascript" src="dist/swiper/swiper-3.4.2.min.js"></script>
 <script type="text/javascript" src="dist/swiper/swiper.animate1.0.2.min.js"></script>
+<script type="text/javascript" src="js/clipboard.min.js"></script>
 <script type="text/javascript" src="js/layout.js"></script>
+<script type="text/javascript" charset="utf-8">
+    // iscrool
+    $('.wrapper').navbarscroll({
+        defaultSelect : 3
+    });
+    var timer;
+    var clipboard = new Clipboard('.btn');
+    clipboard.on('success', function(e) {
+        console.log(e);
+        clearTimeout(timer)
+        $('.toast').fadeIn(500);
+        timer = setTimeout(function () {
+            $('.toast').fadeOut(500);
+        },2000)
+    });
+</script>
 </body>
 </html>

@@ -32,6 +32,10 @@
         3、精通J2EE技术平台及主流框架
     </p>
 </div>
+
+<textarea cols="20" rows="10" id="email">hr@haoku.sina.com</textarea>
+<input type="button"  onClick="copyEmail()" value="点击复制代码" />
+
 <div class="footer">
     <img src="./images/index/footer-logo.png" class="footer-logo" alt="">
     <div class="tel-box">
@@ -62,7 +66,8 @@
             </div>
             <div class="modal-body">
                 <p class="email">邮箱地址：hr@haoku.sina.com</p>
-                <button class="copy btn" data-clipboard-text="hr@haoku.sina.com">复制邮箱地址</button>
+                <button class="copy btn"  >复制邮箱地址</button>
+                <input type="button"  onClick="copyEmail()" value="点击复制代码" />
             </div>
         </div>
     </div>
@@ -73,18 +78,15 @@
 
 <script type="text/javascript" src="dist/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="dist/bootstrap/js/bootstrap.js"></script>
-<script type="text/javascript" src="dist/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="js/clipboard.min.js"></script>
 <script>
-    var timer;
-    var clipboard = new Clipboard('.btn');
-    clipboard.on('success', function(e) {
-        clearTimeout(timer)
-        $('.toast').fadeIn(500);
-        timer = setTimeout(function () {
-            $('.toast').fadeOut(500);
-        },2000)
-    });
+    function copyEmail()
+    {
+        var Url2=document.getElementById("email");
+        Url2.select();
+        document.execCommand("Copy");
+        alert("已复制好，可贴粘。");
+    }
+
 </script>
 
 </body>
