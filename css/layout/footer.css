@@ -27,7 +27,7 @@
 .footer-detail {
     display: flex;
     align-items: center;
-    padding: 0 5vw;
+    padding: 0 3vw 3vw ;
 }
 .erweima {
     width: 100px;
@@ -36,4 +36,13 @@
 }
 .company-detail {
     color: #d9d9d9;
+}
+.company-detail p {
+    margin: 0;
+    font-size: 12px;
+
+}
+.btn:hover, .btn:focus, .btn.focus {
+    color: #fff;
+    text-decoration: none;
 }

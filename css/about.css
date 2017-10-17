@@ -3,7 +3,25 @@ body {
 }
 /*  banner  */
 .banner-1 {
-    background: url("../images/index/banner-1.png");
+    background: url("../images/about/02.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-2 {
+    background: url("../images/about/04.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-3 {
+    background: url("../images/about/06.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-4 {
+    background: url("../images/about/07.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -35,6 +53,7 @@ body {
 }
 .detail {
     color: #666666;
+    text-align: justify;
 }
 
 

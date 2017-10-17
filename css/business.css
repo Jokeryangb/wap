@@ -13,8 +13,9 @@
 
 }
 .bus-list li {
-    width: 40vw;
-    margin-bottom: 2vh;
+    width: 43vw;
+    margin: 0 1vw;
+    margin-bottom: 1vh;
 }
 .bus-list li img {
     width: 100%;
@@ -24,6 +25,7 @@
     margin: 0 auto;
     border-top: 5px solid #0892fa;
     background: #fff;
+    margin-top: 2vh;
 }
 .cooperate-header {
     font-size: 1.8rem;

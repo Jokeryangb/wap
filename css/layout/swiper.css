@@ -6,7 +6,7 @@
 }
 .swiper-slide {
     background: #fff;
-    height: 41vh;
+    height: 40vh;
 }
 .swiper-pagination {
     display: flex;
@@ -20,8 +20,15 @@
     background: #fff;
     opacity: 1;
 }
-.swiper-pagination-bullet-active {
-    width: 30px;
-    border-radius: 0;
+.swiper-pagination-bullet {
+    width: 5px;
     height: 5px;
+}
+.swiper-pagination-bullet-active {
+    width: 20px;
+    border-radius: 0;
+    height: 3px;
+}
+.about-swiper>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 20px;
 }

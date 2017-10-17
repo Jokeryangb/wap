@@ -24,19 +24,19 @@ small {
 }
 .pro-list {
     display: flex;
-    width: 90vw;
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 2vh;
 }
 .pro-list li {
-    width: 17vw;
+    width: 16vw;
     text-align: center;
-    margin: 1vw;
+    margin: 0vw 3vw 0 3vw;
+    font-size: 12px;
 }
 .pro-list li img {
-    width: 100%;
+    width: 95%;
     margin-bottom: 1vh;
 }
 .ser-box {
@@ -44,11 +44,11 @@ small {
     padding-top: 3vh;
 }
 .ser-list {
-    width: 90vw;
     margin: 0 auto;
 }
 .ser-list li {
     margin: 3vh 0;
+    padding: 0 5vw;
 }
 .title {
     font-size: 18px;
@@ -62,6 +62,7 @@ small {
 }
 .detail {
     color: #666666;
+    text-align: justify;
 }
 .detail.short {
     height: 3.5rem;
@@ -72,9 +73,10 @@ small {
     -webkit-box-orient: vertical;
 }
 .toggle-btn {
-    height: 1.5rem;
+    height: 2.5rem;
     display: flex;
     justify-content: flex-end;
+    padding-top: 1rem;
 }
 .toggle {
     font-size: 12px;
@@ -94,5 +96,7 @@ small {
     background-position-x: 30px;
     background-position-y: 1px;
 }
-
+.divice {
+    width: 100%;
+}
 

@@ -65,8 +65,7 @@
             </div>
             <div class="modal-body">
                 <p class="email">邮箱地址：hr@haoku.sina.com</p>
-                <button class="copy btn" onClick="copyEmail()"   >复制邮箱地址</button>
-                <textarea  id="copy" >hr@haoku.sina.com</textarea>
+                <button class="copy btn" data-clipboard-text="hr@haoku.sina.com">复制邮箱地址</button>
             </div>
         </div>
     </div>
@@ -77,8 +76,21 @@
 
 <script type="text/javascript" src="dist/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="dist/bootstrap/js/bootstrap.js"></script>
-<script type="text/javascript" src="js/copy.js"></script>
+<script type="text/javascript" src="js/clipboard.min.js"></script>
 
+<script>
+    var timer;
+    var clipboard = new Clipboard('.btn',{
+        container: document.getElementById('myModal')
+    });
+    clipboard.on('success', function(e) {
+        clearTimeout(timer)
+        $('.toast').fadeIn(500);
+        timer = setTimeout(function () {
+            $('.toast').fadeOut(500);
+        },2000)
+    });
+</script>
 
 </body>
 </html>
