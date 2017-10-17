@@ -23,9 +23,21 @@ small {
     font-size: 14px;
 }
 .pro-list {
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     margin: 0 auto;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: space-around;
+    -moz-justify-content: space-around;
+    -webkit-justify-content: space-around;
     justify-content: space-around;
     padding-top: 2vh;
 }
@@ -74,7 +86,15 @@ small {
 }
 .toggle-btn {
     height: 2.5rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+
+    -webkit-box-pack: flex-end;
+    -moz-justify-content: flex-end;
+    -webkit-justify-content: flex-end;
     justify-content: flex-end;
     padding-top: 1rem;
 }

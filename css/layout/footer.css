@@ -25,9 +25,17 @@
     color: #fff;
 }
 .footer-detail {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
     align-items: center;
     padding: 0 3vw 3vw ;
+
 }
 .erweima {
     width: 100px;
@@ -36,6 +44,7 @@
 }
 .company-detail {
     color: #d9d9d9;
+
 }
 .company-detail p {
     margin: 0;
